@@ -298,4 +298,22 @@
     .check-list ul li{
         width: 100% !important;
     }
+
+    #relate {
+        padding: 1rem;
+    }
+
+    .relate {
+        margin-top: 1rem !important;
+        width: 100%;
+    }
+
+    .relate__main {
+        flex-wrap: wrap;
+    }
+
+    .relate__left, .relate__right {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
 }

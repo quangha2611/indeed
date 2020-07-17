@@ -6,6 +6,10 @@
 
 2.1. CONTENT SKILLS
 
+
+3.1 CONTENT SALARIES
+
+
 */
 
 /*===============================*/
@@ -1010,6 +1014,39 @@
     font-size: 1rem;
     line-height: 1.38;
 }
+
+
+/*===============================*/
+
+/* CONTENT SALARIES  */
+
+
+.relate {
+    margin-top: 5rem !important;
+}
+
+.relate__main {
+    justify-content: space-between;
+}
+
+.relate__left, .relate__right {
+    display: flex;
+    padding: 2rem 1.5rem;
+    width: 47%;
+    border: 1px solid #ebebeb;
+    border-radius: 0.5rem;
+}
+
+.relate__left h4, .relate__right h4 {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.relate__left a, .relate__right a {
+    font-size: 0.875rem;
+    color: black;
+}
+
 
 
 
