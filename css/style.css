@@ -1,0 +1,1021 @@
+/* 
+1.1. HEADER
+1.2. CONTENT OVERVIEW
+1.3. RATE
+1.4. FOOTER
+
+2.1. CONTENT SKILLS
+
+*/
+
+/*===============================*/
+
+
+/* HEADER */
+
+.header {
+    padding: 0;
+}
+
+.header .header__top {
+    height: 3rem;
+    line-height: 3rem;
+    border-bottom: 2px solid #ebebeb;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.header .header__top .header__top__logo {
+    height: 100%;
+    margin-left: 2rem;
+    border: none;
+}
+
+.header .header__top .header__top__logo img {
+    margin-bottom: 0.5rem;
+}
+
+
+.header .header__top__firstlink ul li, .header__top__secondslink ul li{
+    margin: 0 1rem 0 0;
+    position: relative;
+}
+
+.header .header__top__firstlink ul li::before, .header__top__secondslink ul li::before{
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #1497ff;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.1s;
+}
+
+.header__top__secondslink ul li:nth-child(2)::before{
+    display: none;
+}
+
+.header .header__top__firstlink ul li:hover::before, .header__top__secondslink ul li:hover::before{
+    opacity: 1;
+}
+
+.header .header__top__firstlink ul li:hover a {
+    color: black;
+}
+
+.header .header__top__firstlink ul li a {
+    font-size: 0.875rem;
+    color: #6f6f6f;
+}   
+
+
+.header .header__top__secondslink {
+    text-align: right;
+}
+
+.header .header__top__secondslink a,span{
+    font-size: 0.875rem;
+    color: #6f6f6f;
+}
+
+.link-blue {
+    font-weight: bold;
+    color: blue !important;
+}
+
+.header .header__main {
+    padding: 1rem 2rem 0 2rem;
+}
+
+.header .header__main .header__main__title h1{ 
+    font-size: 2.625rem;
+    letter-spacing: -.5px;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.header .header__main .header__main__searchform form{
+    display: flex;
+}
+
+.header .header__main__searchform form input[type="text"] {
+    padding: 1rem;
+    width: 20rem;
+    margin-right: 1rem;
+    border-radius: .5rem;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.header .header__main__searchform label {
+    font-size: 0.875rem;
+    color: #6f6f6f;
+}
+
+.header .header__main__searchform button {
+    padding: 0.5rem 1rem;
+    height: 2.5rem;
+    border: 1px solid blue;
+    background-color: transparent;
+    color: blue;
+    border-radius: 0.35rem;
+    margin-top: 2rem;
+}
+
+.header .header__main__searchform button:hover {
+    background-color: #ebebeb !important;
+}
+
+.header__main__menu {
+    height: 3.5rem;
+    line-height: 3.5rem;
+    margin-top: 1rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    border-bottom: 2px solid #ebebeb;
+}
+
+.header__main__menu ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header__main__menu ul li {
+    position: relative;
+    width: 5rem;
+    text-align: center;
+}
+
+.header__main__menu ul li::before, .header__top__secondslink ul li::before{
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.1s;
+}
+
+.header__main__menu ul li a {
+    font-size: 1rem;
+    color: #6f6f6f;
+}
+
+
+.header__main__menu ul li:hover::before {
+    opacity: 1;
+    background-color: #1497ff !important;
+}
+
+.header__main__menu ul li:hover a{
+    color: black;
+}
+
+.header__main__menu ul li.header__main__menu-active::before {
+    opacity: 1;
+    background-color: blue;
+}
+
+.header .header__path {
+    padding-top: 1.5rem;
+}
+
+.header__path__main {
+    padding: 0 2rem ;
+}
+
+.header__path__main a{
+    font-size: 0.85rem;
+    color: #4b4b4b !important;
+}
+
+.header__path__main span{
+    font-size: 0.85rem;
+    color: #4b4b4b;
+    margin: 0 0.5rem;
+}
+
+.header__path__main a:hover{
+    text-decoration: underline;
+}
+
+
+.header__path li:last-child a{
+    color: #085FF7 !important;
+}
+
+/*===============================*/
+
+
+/* CONTENT OVERVIEW */
+
+.intro {
+    padding: 1rem 0;
+}
+
+.intro__image {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 12rem;
+    width: 12rem;
+}
+
+.intro__text h2 {
+    font-weight: bold;
+}
+
+.intro__text p {
+    letter-spacing: 0;
+    font-weight: 400;
+    line-height: 1.38;
+    color: #4b4b4b;
+}
+
+.feedback {
+    font-size: .875rem;
+    letter-spacing: 0;
+    font-weight: 400;
+    line-height: 1.34;
+    color: #6f6f6f;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.working-as {
+    margin-bottom: 2rem;
+}
+
+.working-as > div {
+    overflow: hidden;
+    margin-top: 2rem;
+    padding: 2.5rem;
+    border: 1px solid #ebebeb;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.05);
+    position: relative;
+}
+
+.working-as > div::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    background-color:rgb(129, 107, 255);
+    top: 0;
+    left: 0;
+}
+
+.working-as__heading{
+    margin-bottom: 3rem;
+}
+
+.working-as__heading img{
+    height: 80%;
+}
+
+.working-as__heading h2{
+    font-weight: bold;
+}
+
+.working-as__heading p {
+    font-size: .875rem;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.43;
+}
+
+.working-as__main ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.working-as__main ul li{
+    width: 50%;
+    background-image: url(../images/check.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-left: 2.25rem;
+    padding-top: .25rem;
+    padding-right: 1rem;
+    color: #4b4b4b;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    line-height: 1.38;
+}
+
+.how-much {
+    margin-bottom: 2rem;
+}
+
+.how-much > div.container {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.how-much .avg__salaries::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(8, 95, 247);;
+    top: 0;
+    left: 0;
+}
+
+.how-much h2 {
+    font-weight: bold;
+}
+
+.how-much select {
+    padding: 1rem;
+    padding-right: 2rem;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    margin: 0.5rem 0 1rem 0;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    outline: none;
+    width: 10rem;
+}
+
+.avg__salaries {
+    border: 1px solid #ebebeb;
+    display: flex;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.05);
+}
+
+.avg__salaries__left, .avg__salaries__right{
+    width: 35%;
+    padding: 3rem 2rem;
+    background-color: #f9f9f9;
+}
+
+.avg__salaries__left h4 {
+    font-size: 1.4375rem;
+    line-height: 1.22;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #6f6f6f;
+}
+
+.avg__salaries__left h4 ~ p {
+    font-size: .75rem;
+    line-height: 1.34;
+    margin-right: .25rem;
+    color: #6f6f6f;
+    display: inline-block;
+}
+
+.avg__salaries__right {
+    width: 60%;
+    background-color: white;
+}
+
+.avg__salaries__right h5 {
+    font-size: 1.125rem;
+    letter-spacing: -.06px;
+    line-height: 1.34;
+    font-weight: 700;
+    color: #6f6f6f;
+}
+
+.avg__salaries__right ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.avg__salaries__right ul li {
+    width: 30%;
+    display: flex;
+    margin-right: 1rem;
+}
+
+.avg__salaries__right ul li img{
+    height: 1.5rem;
+}
+
+.avg__salaries__right ul li p{
+    font-size: .875rem;
+    color: #6f6f6f;
+}
+
+.avg__salaries__right a.link-blue {
+    font-weight: normal;
+    font-size: 0.875rem;
+}
+
+.earn-more {
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    border: 1px solid #ebebeb;
+    display: flex;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.05);
+}
+
+.earn-more::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: #6ed3ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.earn-more__left {
+    width: 70%;
+}
+
+.earn-more__left h2 {
+    font-weight: bold;
+}
+
+.earn-more__left input {
+    width: 18rem;
+    border-radius: 999px;
+    height: 2.5rem;
+    padding-left: 1rem;
+    border: 1px solid #ebebeb;
+}
+
+.earn-more__left form a.link-blue {
+    font-weight: normal;
+    font-size: 0.875rem;
+}
+
+.earn-more__left button {
+    padding: 0 2.25rem;
+    margin-right: 2.5rem;
+    background-color: transparent;
+    border: 2px solid #ebebeb;
+    color: #ebebeb;
+    border-radius: 999px;
+    transition: 0.2s;
+}
+
+.earn-more__left button:hover {
+    border: 2px solid #085ff7;
+    color: #085ff7;
+}
+
+.earn-more__right {
+    width: 30%;
+}
+
+.paid-in {
+    margin-top: 3rem !important;
+    padding: 0;
+}
+
+.paid-in h2{
+    font-weight: bold;
+}
+
+.paid-in ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.paid-in ul li {
+    width: 30%;
+    border: 1px solid #ebebeb;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+}
+
+.paid-in ul li > div{
+    padding: 1rem;
+}
+
+.paid-in ul li > div:last-child{
+    line-height: 2rem;
+    border-top: 1px solid #ebebeb;
+}
+
+.paid-in ul li p{
+    margin: 0;
+}
+
+.paid-in ul li .paid-in__item__title{
+    font-weight: bold;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.paid-in ul li .paid-in__item__status {
+    font-size: .875rem;
+    line-height: 1.43;
+    color: #6f6f6f;
+}
+
+.paid-in .price {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+
+.paid-in .link-blue {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #085ff7;
+}
+
+.question {
+    margin-top: 3rem !important;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.05);
+    border-radius: 0.25rem;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.question::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fceb6a;
+}
+
+.question > div:first-child {
+    padding: 1.5rem;
+}
+
+.question .question__item {
+    width: 100%;
+    margin-left: 0;
+    border-top: 1px solid #ebebeb;
+}
+
+.question .question__item h4,i{
+    padding: 0;
+}
+
+
+.question .question__header h2{
+    font-weight: bold;
+} 
+
+.question .question__item i{
+    line-height: 2rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+} 
+
+.question__ques {
+    padding: 1rem;
+}
+
+.question__answer {
+    border-top: 1px solid #ebebeb;
+    background-color: #fbfbfb;
+    max-height: 0;
+    transition: 0.4s;
+    overflow: hidden;
+}
+
+.question__answer div {
+    padding: 1rem;
+}
+
+.question__answer div.row p {
+    margin-bottom: 0;
+}
+
+.question__answer div.justify-content-end {
+    padding-top: 0;
+    padding-right: 3rem;
+}
+
+.question__answer div.justify-content-end button{
+    background-color: white;
+    padding: 0 1rem;
+    border: 1px solid #0044e3;
+    color: blue;
+    border-radius: 999px;
+    font-size: 0.875rem;
+    margin-left: 1rem;
+}
+
+.question__answer div.justify-content-end button i{
+    font-size: 0.875rem;
+}
+
+.question__answer div.justify-content-end p{
+    line-height: 2.25rem;
+}
+
+.question__answer div.justify-content-end button:hover {
+    color: white;
+    background-color: #0044e3;
+}
+
+.show {
+    max-height: 100rem;
+}
+
+.question__link div{
+    margin: 0;
+    padding: 1.25rem;
+    font-size: 0.875rem;
+}
+
+.question__link div a{
+    font-weight: normal;
+}
+
+.career-insights {
+    padding: 0;
+    margin-top: 3rem !important;
+}
+
+.career-insights .title{
+    font-weight: bold;
+}
+
+.career-insights__main {
+    margin: 0;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+}
+
+.career-insights__main__item {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border: 1px solid #ebebeb;
+    padding: 0;margin-left: 0;
+    width: 30%;
+    padding-bottom: 1rem;
+}
+
+.career-insights__main__item p{
+    font-size: 0.75rem;
+    color: #6f6f6f;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.career-insights__main__item a {
+    font-weight: normal;
+    width: 100%;
+}
+
+.career-insights div.text-center {
+    margin-top: 2.5rem;
+}
+
+.career-insights div.text-center a {
+    text-align: center;
+    background-color: #fff;
+    border: .125rem solid #085ff7;
+    color: #085ff7;
+    border-radius: 100rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding: 0.75rem 2.25rem;
+}
+
+.career-insights div.text-center a:hover {
+    background-color: #085ff7;
+    color: white;
+}
+
+/*===============================*/
+
+/* RATE  */
+
+#rate {
+    margin-top: 3rem;
+    height: 3rem;
+    height: 5rem;
+}
+
+#rate > .container{
+    padding: 0;
+}
+
+#rate > .container h2{
+    font-weight: bold;
+}
+
+#rate .container > div { 
+    border-radius: 10px;
+    height: 100%;
+    padding: 2rem 2.5rem;
+    border: 1px solid #ebebeb;
+    display: flex;
+    justify-content: space-between;
+}
+
+#rate .container > div h1,.icon_rating {
+    margin: 0;
+    display: flex;
+}
+
+#rate .container > div .icon_rating div{
+    margin-left: 2rem;
+    position: relative;
+}
+
+#rate .container > div .icon_rating div:first-child::after{
+    width: 4rem;
+    display: block;
+    content: "Not helpful";
+    position: absolute;
+    font-size: 0.75rem;
+    left: -35%;
+    margin-top: 0.5rem;
+}
+
+#rate .container > div .icon_rating div:last-child::after{
+    width: 4rem;
+    display: block;
+    content: "Very helpful";
+    position: absolute;
+    font-size: 0.75rem;
+    left: -35%;
+    margin-top: 0.5rem;
+}
+
+/*===============================*/
+
+/* FOOTER  */
+
+#footer {
+    margin-top: 5rem;
+    background-color: #ebebeb;
+}
+
+.footer_first {
+    display: flex;
+    padding: 2rem 3rem;
+}
+
+.footer_first div , .footer_seconds div {
+    width: 20%;
+    margin: 0;
+}
+
+.footer_first div:first-child , .footer_seconds div div:first-child{
+    width: 35%;
+}
+
+.footer_first a{
+    letter-spacing: 0;
+    line-height: 20px;
+    color: black;
+    font-size: 0.875rem;
+}
+
+.footer_first a:hover{
+    text-decoration: underline;
+}
+
+.footer_seconds {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 3rem;
+    background-color: black;
+}
+
+.footer_seconds > div{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    margin: 0;
+}
+
+.footer_seconds {
+    color: white;
+}
+
+.footer_seconds > div:first-child a{ 
+    line-height: 2rem;
+}
+
+.footer_seconds a{
+    color: white;
+    font-size: .875rem;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.footer_seconds a:hover{
+    text-decoration: underline;
+    color: #1497ff;
+}
+
+.footer_seconds .fab{
+    font-size: 1.25rem;
+    margin-right: 1.5rem;
+}
+
+.footer_seconds .copyright{
+    margin-top: 2rem;
+    display: block;
+}
+
+.footer_seconds .copyright a,span{
+    margin: 0;
+    color: #999;
+    font-size: 0.875rem;
+}
+
+
+.footer_seconds .copyright p{
+    margin-bottom: 0;
+}
+
+.footer_seconds .copyright a:hover{
+    text-decoration: underline;
+    color: #1497ff;
+}
+
+
+/*===============================*/
+
+/* CONTENT SKILLS  */
+
+.become {
+    padding-top: 2rem;
+}
+.become__left img{
+    margin-left: 2rem;
+}
+
+.become__right h2 {
+    font-weight: bold;
+}
+
+.become__right p { 
+    margin-bottom: 1rem;
+    color: #4b4b4b;
+}
+
+/* .become__right ol {
+    list-style-type: decimal !important;
+} */
+
+.become__right__link {
+    font-size: .875rem;
+    color: #6f6f6f;
+}
+
+.become__right__link-blue {
+    font-size: 0.75rem;
+    color: #085ff7;
+}
+
+.become__right__link-blue:hover {
+    text-decoration: underline;
+    color: #1497ff;
+}
+
+.become__right ol {
+    padding-left: 2rem;
+}
+
+.become__right li {
+    display: list-item !important;
+    font-size: 0.875rem;
+    letter-spacing: 0px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: rgb(75, 75, 75);
+}
+
+.skills img {
+    margin-left: 0.5rem;
+    padding-right: 0;
+}
+
+.skills h2{
+    font-weight: bold;
+}
+
+.skills h2 div {
+    line-height: 4.5rem;
+}
+
+.skills .check-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills .check-list li{
+    width: 30%;
+    background-image: url(../images/check.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-left: 2.25rem;
+    padding-top: .5rem;
+    padding-right: 1rem;
+    color: #4b4b4b;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    line-height: 1.38;
+}
+
+.chart {
+    margin-bottom: 3rem;
+}
+
+.content-chart h2{
+    margin-bottom: 1.5rem;
+    margin-left: -15px;
+    font-weight: bold;
+}
+
+.content-chart h4 {
+    font-weight: bold;
+    color: black;
+    margin-left: 1rem;
+    font-size: 1.25rem;
+}
+
+.main__chart {
+    justify-content: space-between;
+}
+
+.main__chart__left,.main__chart__right {
+    width: 47.5%;
+    margin: 0;
+    padding: 1rem 0 2rem 0; 
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+}
+
+.main__chart__left p {
+    font-size: 0.875rem;
+    color: #6b6b6b;
+    margin-top: 1.75rem;
+}
+
+.main__chart__right p {
+    font-size: 0.875rem;
+    color: #6b6b6b;
+}
+
+.main__chart__left p,canvas {
+    padding: 0 1rem;
+}
+
+.main__chart__right p,canvas {
+    padding: 0 1rem;
+} 
+
+.common .check-list {
+    border: 1px solid #ebebeb;
+    padding: 2rem;
+    border-radius: 0.25rem;
+}
+
+.common .check-list li{
+    width: 33%;
+    background-image: url(../images/check.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-left: 2.25rem;
+    padding-top: .5rem;
+    padding-right: 1rem;
+    color: #4b4b4b;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    line-height: 1.38;
+}
+
+
+
+
+
+
+
+
+
