@@ -1020,6 +1020,339 @@
 
 /* CONTENT SALARIES  */
 
+.salaries-by-year{
+    padding: 0;
+    margin-top: 3rem;
+}
+
+
+.salaries-by-year__main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.salaries-by-year__main div{
+    margin: 0;
+}
+
+
+.salaries-by-year__left {
+    padding: 0.5rem 0 0 0;
+    width: 40%;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+}
+
+.salaries-by-year__left div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dark{
+    background-color: #FBFBFB;
+}
+
+.salaries-by-year__left div{ 
+    margin: 0;
+    padding: 1rem;
+}
+
+.salaries-by-year__left div p{ 
+    margin: 0;
+}
+
+.salaries-by-year__left div p:last-child{ 
+    text-align: right;
+}
+
+.salaries-by-year__left .lable p { 
+    font-size: 1rem;
+    line-height: 1.38;
+    letter-spacing: 0;
+    color: #909090;
+}
+
+.salaries-by-year__right {
+    width: 55%;
+}
+
+.salaries-by-year__right button{
+    padding: 0.5rem 1.5rem;
+    border: .125rem solid #085ff7;
+    border-radius: 999px;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    font-size: 0.875rem;
+    color: #085ff7;
+    font-weight: 700;
+}
+
+.salaries-by-year__right select {
+    width: 70%;
+    padding: 0.75rem;
+    border: 2px solid #ccc;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    margin-right: 1rem;
+}
+
+.top-companies {
+    padding: 0;
+    margin-bottom: 3rem !important;
+}
+
+.top-companies .rank-list {
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.top-companies .rank-list ul li{
+    display: flex;
+    padding: 1rem;
+}
+
+.top-companies .rank-list ul li div{
+    display: flex;
+    margin: 0;
+    width: 80%;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+    align-items: center;
+}
+
+.top-companies .rank-list ul li a{ 
+    margin-bottom: 0;
+    color: #6b6b6b;
+}
+
+.top-companies .rank-list ul li div div{
+    padding-left: 0;
+    padding-top: 0.05rem;
+}
+
+.top-companies .rank-list ul li > div a {
+    margin: 0;
+    margin-right: 2rem;
+}
+
+.top-companies .rank-list ul a:hover {
+    text-decoration: underline;
+}
+
+
+.top-companies .rank-list ul li ~ div a:first-child {
+    width: 100%;
+}
+
+.top-companies .rank-list ul li .bold{
+    font-size: 1.25rem;
+    color: black;
+}
+
+.top-companies .rank-list ul li > a:last-child{
+    width: 5rem;
+}
+
+.top-companies .rank-list li:last-child a{
+    text-align: right;
+    padding-right: 2.5rem;
+}
+
+.top-companies .fa-star,.fa-star-half-alt {
+    color: #f7c94f;
+}
+
+
+.highest-pay {
+    padding: 0;
+    margin-bottom: 3rem !important;
+}
+
+.highest-pay__main {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.highest-pay__main__left {
+    width: 48%;
+    margin: 0;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.highest-pay__main__left ul{
+    margin-bottom: 0;
+}
+
+.highest-pay__main__left ul li {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0rem 0.5rem 1rem;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.highest-pay__main__left ul li p{
+    margin: 0;
+}
+
+
+.highest-pay__main__left ul li:last-child {
+    border-bottom: none;
+}
+
+.highest-pay__main__left ul li:hover{
+    background-color: #085ff7;
+}
+
+.highest-pay__main__left ul li:hover *{
+    color: white !important;
+}
+
+.highest-pay__main__left ul li div{
+    margin: 0;
+    width: 15%;
+    margin-right: 1rem;
+}
+
+.highest-pay__main__left ul li div:nth-child(2){
+    width: 60%;
+}
+
+.highest-pay__main__left ul li div:last-child{
+    width: 20%;
+    text-align: right;
+}
+
+.highest-pay__main__left ul li div:last-child a{
+    color: black;
+}
+
+
+.highest-pay__main__left .number-rank {
+    display: flex;
+    background: black;
+    width: 1.5rem;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 1.5rem;
+    border-radius: 50%;
+    color: white;
+    font-size: .75rem;
+    letter-spacing: 0;
+    font-weight: 700;
+    line-height: 1.34;
+}
+
+
+.best-paid {
+    margin-top: 3rem !important;
+    padding: 0;
+}
+
+.best-paid .row{
+   margin: 0;
+}
+
+.best-paid > .row{
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.best-paid__item {
+    padding: 1rem 0.5rem;
+    width: 32%;
+    border: 1px solid #ebebeb;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem !important;
+}
+
+.best-paid__item .col-lg-6{
+    padding: 0;
+}
+
+.best-paid__item p{
+    margin: 0;
+}
+
+.best-paid__item p:first-child {
+    font-size: .875rem;
+    color: #909090;
+    font-weight: bold;
+
+}
+
+.best-paid__item p:nth-child(2) {
+    font-size: 1.125rem;
+    letter-spacing: -.06px;
+    line-height: 1.34;
+    color: #000;
+}
+
+.best-paid__item p:nth-child(3) {
+    margin-left: 0.25rem;
+    font-size: 1.25rem;
+    letter-spacing: -.1px;
+    line-height: 1.3;
+    font-weight: bold;
+    color: #00b887;
+}
+
+.best-paid select {
+    padding: 0.5rem;
+    width: 12rem;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: #fff;
+    font-weight: bold;
+    border-radius: 999px;
+}
+
+.table {
+    border: 1px solid #ebebeb;
+    border-radius: 0.5rem;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.best-paid .table table {
+    width: 100%;
+    border: 1px solid transparent;
+    padding: 1rem;
+}
+
+.best-paid table tr{
+    height: 3.5rem;
+    line-height: 3.5rem;
+}
+
+.best-paid table tr.row-dark{
+    background-color: #fbfbfb;
+}
+
+.best-paid table td,th{
+    text-align: right;
+    padding: 0 1rem;
+    width: 15%;
+}
+
+.best-paid table th {
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #6F6F6F;
+}
+
+.best-paid table td:first-child,th:first-child {
+    text-align: left;
+    width: 65%;
+}
 
 .relate {
     margin-top: 5rem !important;
