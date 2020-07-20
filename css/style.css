@@ -1380,7 +1380,51 @@
     color: black;
 }
 
+.benefit {
+    padding: 0;
+    margin-top: 2rem !important;
+}
 
+.benefit__main ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.benefit__main ul li{
+    display: flex;
+    width: 30%;
+    margin: 0.5rem 1rem 0.5rem 0;
+}
+
+.benefit__main ul li p{
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    color: #6b6b6b;
+}
+
+.should__be {
+    margin-top: 3rem !important;
+    border: 1px solid #ebebeb;
+    border-radius: 0.5rem;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.should__be__left h2 {
+    font-weight: bold;
+}
+
+.should__be__left p {
+    color: #4b4b4b;
+}
+
+.should__be__left a {
+    padding: 1rem 5.5rem;
+    background-color: blue;
+    border-radius: 999px;
+    color: white;
+    font-weight: bold;
+}
 
 
 

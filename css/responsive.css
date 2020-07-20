@@ -181,11 +181,11 @@
 
     .career-insights {
         width: 100%;
-        margin: 1rem;
+        padding: 1rem;
     }
 
     .career-insights__main__item {
-        width: 92%;
+        width: 100%;
         margin-top: 1rem;
     }
 
@@ -315,5 +315,83 @@
     .relate__left, .relate__right {
         width: 100%;
         margin-bottom: 1rem;
+    }
+
+    .salaries-by-year {
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .salaries-by-year__main{
+        flex-wrap: wrap;
+    }
+
+    .salaries-by-year__left, .salaries-by-year__right {
+        width: 100%;
+        margin-bottom: 2rem !important;
+    }
+
+    .salaries-by-year__right select {
+        width: 60%;
+    }
+
+    .top-companies {
+        margin: 0;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .top-companies ul li:last-child a{
+        padding: 0 !important;
+    }
+
+    .highest-pay {
+        margin: 0;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .highest-pay__main {
+        flex-wrap: wrap;
+    }
+
+    .highest-pay__main__left {
+        width: 100%;
+    }
+
+    .best-paid {
+        margin: 0;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .best-paid__item {
+        text-align: center;
+    }
+
+    .best-paid table{
+        display: none;
+    }
+
+    .benefit {
+        margin: 0;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .benefit li{
+        width: 100% !important;
+    }
+
+    .should__be {
+        margin: 0;
+        padding: 1rem;
+        width: 92%;
+        margin-left: 1rem;
+    }
+
+    .should__be__right {
+        margin-top: 3rem !important;
     }
 }
