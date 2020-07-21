@@ -394,4 +394,39 @@
     .should__be__right {
         margin-top: 3rem !important;
     }
+
+    .job-opening {
+        margin: 0;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .job-opening__item {
+        width: 100%;
+    }
+
+    .decorate-topleft, .decorate-bottomright {
+        display: none;
+    }
+
+    .get-alerts {
+        margin: 0;
+        margin-left: 1rem;
+        padding: 1rem;
+        width: 92%;
+    }
+
+    .get-alerts form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .get-alerts .get-alerts__main form div {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .get-alerts form div:last-child {
+        line-height: 4;
+    }
 }
