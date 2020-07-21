@@ -13,19 +13,36 @@
 <body>
     <header class="header" class="container-fluid">
         <div class="header__top row">
-            <div class="header__top__logo col-lg-1 col-sm-12">
+            <div class="header__top__logo col-lg-1">
                 <a href="#">
                     <img src="./images/logo.svg" alt="" width="80">
                 </a>
             </div>
-            <div class="header__top__firstlink col-lg-6 col-sm-12">
+            <div class="header__top__firstlink col-lg-6">
                 <ul>
                     <li><a href="#">Find jobs</a></li>
                     <li><a href="#">Companies Reviews</a></li>
                     <li><a href="#">Find Salaries</a></li>
                 </ul>
             </div>
-            <div class="header__top__secondslink col-lg-4 col-sm-12">
+            <label for="show-menu">
+                <i class="fas fa-bars"></i>
+            </label>
+            <input type="checkbox" name="" id="show-menu">
+            <div class="header__top__linkmb">
+                <ul>
+                    <label for="show-menu">
+                        <i class="fas fa-times"></i>
+                    </label>
+                    <li><a href="#">Find jobs</a></li>
+                    <li><a href="#">Companies Reviews</a></li>
+                    <li><a href="#">Find Salaries</a></li>
+                    <li><a href="#">Find jobs</a></li>
+                    <li><a href="#">Companies Reviews</a></li>
+                    <li><a href="#">Find Salaries</a></li>
+                </ul>
+            </div>
+            <div class="header__top__secondslink col-lg-4">
                 <ul>
                     <li><a href="#">Upload your resume</a></li>
                     <li><a href="#" class="link-blue">Sign in</a></li>
@@ -42,7 +59,8 @@
                     <h1>Build a career you'll love</h1>
                 </div>
 
-                <div class="header__main__searchform">
+                <div class="header__main__searchform" id="main__searchform">
+                    <p id="close-search">Cancel</p>
                     <form action="">
                         <div>
                             <label for="#what">What</label> <br>
@@ -55,6 +73,10 @@
                         <button type="submit">Search</button>
                     </form>
                 </div>
+
+                <div id="open-search">
+                    <input type="text">
+                </div>
                 <!-- header-main-searchform  -->
             </div>
         </div>
@@ -66,7 +88,7 @@
             <ul>
                 <li><a href="./index.html">Overview</a></li>
                 <li><a href="./salaries.html">Salaries</a></li>
-                <li class="header__main__menu-active"><a href="./skills.html">Skills</a></li>
+                <li  class="header__main__menu-active"><a href="./skills.html">Skills</a></li>
                 <li><a href="./jobs.html">Jobs</a></li>
                 <li><a href="#">Companies</a></li>
                 <li><a href="#">Questions</a></li>
@@ -85,8 +107,6 @@
                     <li><a href="#">Career Explorer</a></li>
                     <span> / </span>
                     <li><a href="#">Caregiver</a></li>
-                    <span> / </span>
-                    <li><a href="#">Skills</a></li>
                 </ul>
             </div>
         </div>
@@ -466,11 +486,6 @@
         </div>
     </section>
 
-
-
-
-
-
     <section id="rate">
         <div class="container">
             <div>
@@ -610,4 +625,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
 <script src="js/skills.js"></script>
 <script src="./js/overview.js"></script>
+<script src="./js/header.js"></script>
 </html>
