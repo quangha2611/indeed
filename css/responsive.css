@@ -1,7 +1,7 @@
 @media only screen and (max-width: 450px) {    
     .header__top__logo {
         margin: 0 !important;
-        width: 85%;
+        width: 90%;
     }
 
     .header__top__firstlink, .header__top__secondslink{
@@ -55,9 +55,17 @@
         padding: 1rem 0 0 0 !important;
     }
 
+    .header__main__title h1 {
+        font-size: 2rem !important;
+    }
+
     .header__main > .container{
         margin: 0;
         width: 100%;
+    }
+
+    .header__path__main span {
+        margin: 0 0.25rem;
     }
 
     #close-search {
@@ -219,16 +227,37 @@
         margin: 0;
         margin-left: 1rem;
         width: 92%;
-        text-align: center;
+    }
+
+    .question__header h2 {
+        font-size: 1.25rem;    
     }
 
     .question__header div.col-lg-1 {
         display: none;       
     }
 
+    .question__item .col-lg-11{
+        width: 85%;
+    }
+
+    .question__item .col-lg-11 h4{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .question__item .col-lg-1{
+        width: 15%;
+    }
+
+    .question__item .col-lg-1,i{
+        font-size: 1rem;
+    }
+
     .question__answer div.justify-content-end {
         display: block;
         margin-left: 1rem;
+        text-align: center;
     }
 
     .question__answer div.justify-content-end button{
@@ -283,9 +312,22 @@
     .footer_seconds div{
         flex-wrap: wrap;
     }
-    
-    .footer_first div , .footer_seconds div div{
+
+    .footer_seconds div div:first-child {
         width: 100% !important;
+    }
+    
+    .footer_first div {
+        width: 100% !important;
+        margin-bottom: 1rem;
+    }
+
+    .footer_seconds div div:nth-child(3) {
+        padding-left: 1.5rem;
+    }
+
+    .footer_seconds div div{
+        width: 50% !important;
         margin-bottom: 1rem;
     }
 
@@ -485,5 +527,46 @@
 
     .get-alerts form div:last-child {
         line-height: 4;
+    }
+
+    .what-else {
+        padding: 1rem;
+        margin-left: 1rem;
+        width: 92%;
+    }
+
+    .what-else img{
+        display: none;
+    }
+    .what-else h2 {
+        font-size: 1.45rem;
+    }
+
+    .what-else button {
+        padding: 0.5rem 7rem;
+    }
+
+    .articles__tag {
+        width: 100%;
+        padding-left: 1rem;
+    }
+
+    .articles__main {
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .articles__left {
+        width: 100%;
+    }
+
+    .articles__left__item {
+        width: 100%;
+    }
+
+    .articles__right {
+        display: none;
     }
 }
