@@ -18,6 +18,9 @@
 
 6.1 CONTENT ARTICLES
 
+
+7.1 CONTENT COMPANIES
+
 */
 
 /*===============================*/
@@ -1221,7 +1224,7 @@
     padding-right: 2.5rem;
 }
 
-.top-companies .fa-star,.fa-star-half-alt {
+.fa-star,.fa-star-half-alt {
     color: #f7c94f;
 }
 
@@ -1823,8 +1826,125 @@
  }
 
 
+/*===============================*/
 
 
+/* CONTENT COMPANIES  */
+
+.top-rated {
+    padding: 0;
+    margin-top: 2rem !important;
+}
+
+.top-rated > .row {
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.top-rated .ranking-menu {
+    width: 25%;
+    height: fit-content;
+    position: sticky;
+    top: 8rem;
+}
+
+.top-rated .ranking-menu > div:first-child {
+    width: 100%;
+    border: 1px solid #ebebeb;
+    padding: 1rem 1rem 2rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.top-rated .ranking-menu p {
+    font-weight: bold;
+}
+
+.top-rated .ranking-menu div:last-child a{
+    margin-left: 1rem;
+}
+
+.top-rated .ranking-menu a {
+    display: block;
+    font-size: 0.875rem;
+    color: #4b4b4b;
+}
+
+.top-rated .ranking-menu a:hover {
+    color: #085FF7;
+}
+
+
+.top-rated__main {
+    width: 70%;
+}
+
+.top-rated__main {
+    width: 70%;
+}
+
+.top-rated__main ul {
+    border: 1px solid#ebebeb;
+    padding: 0.5rem 0 0 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-bottom: 4rem;
+}
+
+.top-rated__item {
+    cursor: pointer;
+    display: flex;
+    padding: 1rem;
+    padding-left: 2rem;
+    border-top: 1px solid #ebebeb;
+}
+
+.top-rated__item__dark {
+    background-color: #fbfbfb;
+}
+
+.top-rated__item:hover {
+    background-color: #095ef7;
+}
+
+.top-rated__item:hover a{
+    color: white !important;
+}
+
+.top-rated__item:hover i.fa-chevron-right{
+    color: white !important;
+}
+
+
+.top-rated__item .top-rated__item__main {
+    margin-left: 0.75rem;
+    width: 85%;
+    padding-top: 0.5rem;
+}
+
+
+.top-rated__item .top-rated__item__logo{
+    width: 4.25rem;
+}
+
+.top-rated__item .top-rated__item__logo img {
+    width: 100%;
+    height: 4.25rem;
+}
+
+.top-rated__item a {
+    color: black;
+    margin-right: 0.25rem;
+}
+
+.top-rated__item a:last-child {
+    font-size: 0.875rem;
+    color: #4b4b4b; 
+}
+
+.top-rated__item i.fa-chevron-right {
+    margin-top: 1.25rem;
+    color: black;
+}
 
 
 

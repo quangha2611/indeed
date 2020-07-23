@@ -276,7 +276,7 @@
     }
 
     #rate {
-        margin-bottom: 10rem;
+        margin-bottom: 6rem;
         text-align: center;
     }
 
@@ -296,6 +296,10 @@
         margin-right: 1rem;
         margin-top: 1rem;
         margin-left: 0;
+    }
+
+    footer {
+        margin-top: 3rem !important;
     }
 
     .footer_first {
@@ -568,5 +572,27 @@
 
     .articles__right {
         display: none;
+    }
+
+    .top-rated {
+        width: 100%;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .top-rated .ranking-menu {
+        display: none;
+    }
+
+    .top-rated__main {
+        width: 100%;
+    }
+
+    .top-rated__item {
+        padding-left: 1rem;
+    }
+
+    .top-rated__main ul {
+        margin-bottom: 2rem;
     }
 }
