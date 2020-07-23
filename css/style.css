@@ -56,6 +56,10 @@
     position: relative;
 }
 
+.header__top__secondslink {
+    padding: 0;
+}
+
 .header .header__top__firstlink ul li::before, .header__top__secondslink ul li::before{
     display: block;
     content: "";
@@ -303,7 +307,8 @@
 }
 
 .working-as__heading{
-    margin-bottom: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .working-as__heading img{
@@ -643,8 +648,8 @@
 .question__answer div.justify-content-end button{
     background-color: white;
     padding: 0 1rem;
-    border: 1px solid #0044e3;
-    color: blue;
+    border: 1px solid #095ef7;
+    color: #095ef7;
     border-radius: 999px;
     font-size: 0.875rem;
     margin-left: 1rem;
