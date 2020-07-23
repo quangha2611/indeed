@@ -653,6 +653,7 @@
     border-radius: 999px;
     font-size: 0.875rem;
     margin-left: 1rem;
+    font-weight: bold;
 }
 
 .question__answer div.justify-content-end button i{
