@@ -58,6 +58,7 @@
 
 .header__top__secondslink {
     padding: 0;
+    margin-left: 4rem;
 }
 
 .header .header__top__firstlink ul li::before, .header__top__secondslink ul li::before{
@@ -605,8 +606,10 @@
     border-top: 1px solid #ebebeb;
 }
 
-.question .question__item h4,i{
+.question .question__item h4 {
     padding: 0;
+    font-size: 1.45rem;
+    color: black;
 }
 
 
@@ -1169,7 +1172,7 @@
 
 .top-companies {
     padding: 0;
-    margin-bottom: 3rem !important;
+    margin-bottom: 2rem !important;
 }
 
 .top-companies .rank-list {
@@ -1737,7 +1740,7 @@
 .articles__main {
     display: flex;
     justify-content: space-between;
-    margin-top: 3rem !important;
+    margin-top: 2rem !important;
     padding: 0;
 }
 
@@ -1952,5 +1955,28 @@
     color: black;
 }
 
+.helpful-question .row div{
+    padding: 0.5rem 0.75rem;
+    border-radius: 999px;
+    background-color: rgb(246, 246, 246);
+    margin-left: 0.75rem;
+}
 
+.helpful-question .row div:hover {
+    background-color: rgb(236, 236, 236);
+}
 
+.helpful-question .row p{
+    font-size: 0.875rem;
+    color: rgb(111, 111, 111);
+    margin-right: 0.25rem;
+}
+
+.helpful-question .row i{
+   font-weight: lighter;
+   font-size: 0.875rem;
+}
+
+.helpful-question .row {
+    justify-content: end;
+}

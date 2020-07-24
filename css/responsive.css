@@ -268,7 +268,13 @@
         width: 15%;
     }
 
-    .question__item .col-lg-1,i{
+    .question__item .col-lg-1{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .question__item .col-lg-1 i{
+        line-height: 2.25rem;
         font-size: 1rem;
     }
 
@@ -487,12 +493,23 @@
 
     .top-companies {
         margin: 0;
-        padding: 1rem;
         width: 100%;
+    }
+
+    .top-companies h2 {
+        margin-left: 1rem;
+    }
+
+    .top-companies .rank-list {
+        border: none;
     }
 
     .top-companies ul {
         margin-bottom: 0;
+    }
+
+    .top-companies .rank-list ul li div div {
+        width: 70%;
     }
 
     .top-companies .rank-list ul li > div a {
@@ -530,7 +547,6 @@
 
     .highest-pay {
         margin: 0;
-        padding: 1rem;
         width: 100%;
     }
 
@@ -538,8 +554,22 @@
         flex-wrap: wrap;
     }
 
+    .highest-pay h2 {
+        margin-left: 1rem;
+    }
+
     .highest-pay__main__left {
         width: 100%;
+        border: none;
+        border-radius: 0;
+    }
+
+    .highest-pay__main__left li:nth-child(odd) {
+        background-color: #fbfbfb;
+    }
+
+    .highest-pay__main__left {
+        border-bottom: 1px solid #ebebeb !important;
     }
 
     .highest-pay__main__left .number-rank {
@@ -714,5 +744,16 @@
 
     .top-rated__item__main div i{
         font-size: 0.75rem !important;
+    }
+
+    .helpful-question {
+        width: 100%;
+    }
+
+    .helpful-question .row {
+        padding: 0 2rem;
+        width: 100% !important;
+        justify-content: center !important;
+        margin-left: 0;
     }
 }
