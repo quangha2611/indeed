@@ -5,7 +5,20 @@
 
     .header__top__logo {
         margin: 0 !important;
-        width: 90%;
+        width: 60%;
+    }
+
+    .sign-in-mb {
+        display: block;
+    }
+
+    .sign-in-mb a{
+        background-color: #085ff7;
+        color: white;
+        font-weight: bold;
+        padding: 0.5rem 1.25rem;
+        border-radius: 999px;
+        margin-right: 1.75rem;
     }
 
     .header__top__firstlink, .header__top__secondslink{
@@ -387,6 +400,13 @@
         margin-bottom: 1rem;
     }
 
+    .footer_seconds h3 {
+        font-size: 1.25rem;
+        margin-bottom: -0.25rem;
+        margin-top: 0.5rem;
+        font-weight: bold;
+    }
+
     /* SKILLS  */
 
 
@@ -619,13 +639,32 @@
 
     .should__be {
         margin: 0;
-        padding: 1rem;
+        padding: 2rem 1rem 2rem 1rem;
         width: 92%;
         margin-left: 1rem;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .should__be-mb {
+        display: block;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .should__be::before{
+        display: block;
+        width: 100%;
+        height: 10px;
+        position: absolute;
+        content: "";
+        background-color: #e4521d;
+        top: 0;
+        left: 0;
     }
 
     .should__be__right {
-        margin-top: 3rem !important;
+        display: none;
     }
 
     .should__be a {

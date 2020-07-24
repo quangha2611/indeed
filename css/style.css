@@ -40,6 +40,10 @@
     margin-right: 0;
 }
 
+.sign-in-mb {
+    display: none;
+}
+
 .header .header__top .header__top__logo {
     height: 100%;
     margin-left: 2rem;
@@ -1494,6 +1498,10 @@
     border-radius: 999px;
     color: white;
     font-weight: bold;
+}
+
+.should__be-mb {
+    display: none;
 }
 
 
